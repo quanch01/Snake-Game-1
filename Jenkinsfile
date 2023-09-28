@@ -21,8 +21,8 @@ node('ubuntu-appserver-3120')
 
     stage('Pull-image-server')
     {
-        sh 'docker-compose down'
-        sh 'docker-compose up -d'
+        sh "docker-compose down"
+        sh "docker-compose up -d"
     }
 }
 
