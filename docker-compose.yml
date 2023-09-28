@@ -1,5 +1,5 @@
 version: '3.3'
-service: 
+services: 
   snake:
     image: 'quanch/game_docker_repo'
     enviornment:
